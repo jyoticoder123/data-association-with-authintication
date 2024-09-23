@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-900 text-white flex items-center justify-center min-h-screen p-10">
+    <div class="w-full max-w-md bg-zinc-800 p-10 rounded-lg shadow-lg">
+        <h3 class="text-3xl mb-6 text-center font-semibold">Create Account</h3>
+        <form action="/register" method="post" class="space-y-4">
+            <div class="relative">
+                <input class="w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md transition-all focus:border-blue-500 focus:shadow-lg" type="text" placeholder="Name" name="name">
+            </div>
+            <div class="relative">
+                <input class="w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md transition-all focus:border-blue-500 focus:shadow-lg" type="text" placeholder="Username" name="username">
+            </div>
+            <div class="relative">
+                <input class="w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md transition-all focus:border-blue-500 focus:shadow-lg" type="number" placeholder="Age" name="age">
+            </div>
+            <div class="relative">
+                <input class="w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md transition-all focus:border-blue-500 focus:shadow-lg" type="email" placeholder="Email" name="email">
+            </div>
+            <div class="relative">
+                <input class="w-full px-3 py-2 outline-none bg-transparent border-2 border-zinc-800 rounded-md transition-all focus:border-blue-500 focus:shadow-lg" type="password" placeholder="Password" name="password">
+            </div>
+            <div class="text-center">
+                <input class="w-full px-5 py-2 rounded-md bg-blue-500 hover:bg-blue-600 transition-all cursor-pointer shadow-lg hover:shadow-xl" type="submit" value="Submit Account">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
